@@ -6,7 +6,7 @@ import my_commands  # Import the renamed commands file
 
 # Load environment variables
 load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("DISCORD_TOKEN_KEY")
 
 # Set up the bot
 intents = discord.Intents.default()
